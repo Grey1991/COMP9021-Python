@@ -1,0 +1,829 @@
+TEST 1 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(34, 0, 2))'
+Here is L: []
+The second smallest element in L is: None
+The minimum gap in absolute value between successive elements in L is: 0
+None
+
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(35, 1, 2))'
+Here is L: [2]
+The second smallest element in L is: None
+The minimum gap in absolute value between successive elements in L is: 0
+None
+
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(36, 2, 0))'
+Here is L: [0, 0]
+The second smallest element in L is: 0
+The minimum gap in absolute value between successive elements in L is: 0
+None
+
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(37, 2, 200))'
+Here is L: [174, 155]
+The second smallest element in L is: 174
+The minimum gap in absolute value between successive elements in L is: 19
+None
+
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(38, 3, 0))'
+Here is L: [0, 0, 0]
+The second smallest element in L is: 0
+The minimum gap in absolute value between successive elements in L is: 0
+None
+
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(39, 3, 200))'
+Here is L: [53, 66, 98]
+The second smallest element in L is: 66
+The minimum gap in absolute value between successive elements in L is: 13
+None
+
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(40, 4, 3))'
+Here is L: [3, 0, 1, 2]
+The second smallest element in L is: 1
+The minimum gap in absolute value between successive elements in L is: 1
+None
+
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(41, 4, 60))'
+Here is L: [24, 21, 14, 10]
+The second smallest element in L is: 14
+The minimum gap in absolute value between successive elements in L is: 3
+None
+
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(42, 5, 3))'
+Here is L: [0, 0, 2, 1, 1]
+The second smallest element in L is: 0
+The minimum gap in absolute value between successive elements in L is: 0
+None
+
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(43, 5, 60))'
+Here is L: [2, 18, 44, 48, 9]
+The second smallest element in L is: 9
+The minimum gap in absolute value between successive elements in L is: 4
+None
+
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(44, 10, 30))'
+Here is L: [13, 16, 17, 22, 27, 3, 5, 12, 7, 9]
+The second smallest element in L is: 5
+The minimum gap in absolute value between successive elements in L is: 1
+None
+
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(45, 10, 6000))'
+Here is L: [2227, 3421, 3997, 2110, 670, 2483, 2774, 176, 592, 3967]
+The second smallest element in L is: 592
+The minimum gap in absolute value between successive elements in L is: 30
+None
+
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(47, 20, 6000))'
+Here is L: [2882, 512, 3524, 4535, 3716, 4675, 2813, 2108, 4197, 3166, 3214, 5042, 335, 3428, 5395, 193, 839, 5, 2161, 3944]
+The second smallest element in L is: 193
+The minimum gap in absolute value between successive elements in L is: 48
+None
+
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(49, 30, 6000))'
+Here is L: [547, 2820, 3385, 905, 2650, 4541, 4188, 406, 5569, 367, 2260, 1264, 3725, 371, 5164, 4473, 4131, 1795, 4936, 2342, 4696, 3040, 3277, 249, 2037, 5951, 1130, 784, 3467, 5971]
+The second smallest element in L is: 367
+The minimum gap in absolute value between successive elements in L is: 4
+None
+
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(51, 50, 6000))'
+Here is L: [1994, 4114, 4524, 1326, 2015, 1895, 4524, 2095, 3255, 4491, 3797, 5992, 5701, 4490, 4288, 5152, 2805, 4801, 5411, 2950, 3168, 2274, 3308, 5711, 62, 933, 232, 4414, 2115, 266, 3913, 5537, 1455, 2844, 5044, 2455, 3008, 3678, 5314, 1583, 241, 3589, 1376, 3851, 104, 496, 870, 4850, 881, 1432]
+The second smallest element in L is: 104
+The minimum gap in absolute value between successive elements in L is: 0
+None
+
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c 'from exercise_1 import * ; print(f(53, 100, 6000))'
+Here is L: [5055, 1769, 3739, 4112, 5827, 3954, 5881, 4264, 2954, 3724, 5964, 255, 301, 1386, 2816, 1084, 2138, 459, 1386, 384, 2951, 1876, 3611, 1623, 1874, 1036, 1132, 2877, 4157, 5300, 2607, 4190, 5408, 3303, 451, 2722, 2280, 1255, 741, 5548, 4530, 3379, 3171, 3599, 2024, 5382, 1271, 424, 3665, 5295, 3932, 1893, 2819, 4851, 1868, 1179, 650, 263, 5507, 782, 423, 3917, 3247, 4491, 2685, 2105, 1924, 459, 3148, 3415, 1157, 1523, 1631, 4384, 2697, 5249, 2993, 5385, 1564, 3885, 1816, 4285, 3933, 2879, 1421, 3974, 1643, 4941, 2475, 791, 5345, 3469, 540, 3193, 3094, 634, 2429, 1034, 5337, 3275]
+The second smallest element in L is: 263
+The minimum gap in absolute value between successive elements in L is: 0
+None
+
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(34, 0, 2))'
+Program could not run or crashed
+
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(35, 1, 2))'
+Program could not run or crashed
+
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(36, 2, 0))'
+Program could not run or crashed
+
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(37, 2, 200))'
+Program could not run or crashed
+
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(38, 3, 0))'
+Program could not run or crashed
+
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(39, 3, 200))'
+Program could not run or crashed
+
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(40, 4, 3))'
+Program could not run or crashed
+
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(41, 4, 60))'
+Program could not run or crashed
+
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(42, 5, 3))'
+Program could not run or crashed
+
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(43, 5, 60))'
+Program could not run or crashed
+
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(44, 10, 30))'
+Program could not run or crashed
+
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(45, 10, 6000))'
+Program could not run or crashed
+
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(47, 20, 6000))'
+Program could not run or crashed
+
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(49, 30, 6000))'
+Program could not run or crashed
+
+TEST 30 END
+
+TEST 31 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(51, 50, 6000))'
+Program could not run or crashed
+
+TEST 31 END
+
+TEST 32 BEGIN
+$ python3 -c 'from exercise_2 import * ; print(f(53, 100, 6000))'
+Program could not run or crashed
+
+TEST 32 END
+
+TEST 33 BEGIN
+$ python3 -c 'from exercise_3 import * ; print(f(3))'
+3 factorial is 6
+The last nonzero digit in 3 factorial is 6
+None
+
+TEST 33 END
+
+TEST 34 BEGIN
+$ python3 -c 'from exercise_3 import * ; print(f(5))'
+5 factorial is 120
+The last nonzero digit in 5 factorial is 2
+None
+
+TEST 34 END
+
+TEST 35 BEGIN
+$ python3 -c 'from exercise_3 import * ; print(f(15))'
+15 factorial is 1307674368000
+The last nonzero digit in 15 factorial is 8
+None
+
+TEST 35 END
+
+TEST 36 BEGIN
+$ python3 -c 'from exercise_3 import * ; print(f(23))'
+23 factorial is 25852016738884976640000
+The last nonzero digit in 23 factorial is 4
+None
+
+TEST 36 END
+
+TEST 37 BEGIN
+$ python3 -c 'from exercise_3 import * ; print(f(36))'
+36 factorial is 371993326789901217467999448150835200000000
+The last nonzero digit in 36 factorial is 2
+None
+
+TEST 37 END
+
+TEST 38 BEGIN
+$ python3 -c 'from exercise_3 import * ; print(f(37))'
+37 factorial is 13763753091226345046315979581580902400000000
+The last nonzero digit in 37 factorial is 4
+None
+
+TEST 38 END
+
+TEST 39 BEGIN
+$ python3 -c 'from exercise_3 import * ; print(f(48))'
+48 factorial is 12413915592536072670862289047373375038521486354677760000000000
+The last nonzero digit in 48 factorial is 6
+None
+
+TEST 39 END
+
+TEST 40 BEGIN
+$ python3 -c 'from exercise_3 import * ; print(f(54))'
+54 factorial is 230843697339241380472092742683027581083278564571807941132288000000000000
+The last nonzero digit in 54 factorial is 8
+None
+
+TEST 40 END
+
+TEST 41 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(f(14))'
+14 is deficient
+None
+
+TEST 41 END
+
+TEST 42 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(f(79))'
+79 is deficient
+None
+
+TEST 42 END
+
+TEST 43 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(f(1762))'
+1762 is deficient
+None
+
+TEST 43 END
+
+TEST 44 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(f(12368))'
+12368 is deficient
+None
+
+TEST 44 END
+
+TEST 45 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(f(200))'
+200 is not deficient
+None
+
+TEST 45 END
+
+TEST 46 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(f(2205))'
+2205 is not deficient
+None
+
+TEST 46 END
+
+TEST 47 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(f(2556))'
+2556 is not deficient
+None
+
+TEST 47 END
+
+TEST 48 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(f(12360))'
+12360 is not deficient
+None
+
+TEST 48 END
+
+TEST 49 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(g(6232, 6368))'
+6232 and 6368 are amicable.
+None
+
+TEST 49 END
+
+TEST 50 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(g(63020, 76084))'
+63020 and 76084 are amicable.
+None
+
+TEST 50 END
+
+TEST 51 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(g(122368, 123152))'
+122368 and 123152 are amicable.
+None
+
+TEST 51 END
+
+TEST 52 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(g(176272, 180848))'
+176272 and 180848 are amicable.
+None
+
+TEST 52 END
+
+TEST 53 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(g(6232, 6370))'
+6232 and 6370 are not amicable.
+None
+
+TEST 53 END
+
+TEST 54 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(g(63422, 76084))'
+63422 and 76084 are not amicable.
+None
+
+TEST 54 END
+
+TEST 55 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(g(122368, 123162))'
+122368 and 123162 are not amicable.
+None
+
+TEST 55 END
+
+TEST 56 BEGIN
+$ python3 -c 'from exercise_4 import * ; print(g(176282, 180848))'
+176282 and 180848 are not amicable.
+None
+
+TEST 56 END
+
+TEST 57 BEGIN
+$ python3 -c 'from exercise_5 import * ; print(f(1237, 1237))'
+The number of prime numbers between 1237 and 1237 included is 0
+None
+
+TEST 57 END
+
+TEST 58 BEGIN
+$ python3 -c 'from exercise_5 import * ; print(f(10, 80))'
+The number of prime numbers between 10 and 80 included is 18
+None
+
+TEST 58 END
+
+TEST 59 BEGIN
+$ python3 -c 'from exercise_5 import * ; print(f(81, 234))'
+The number of prime numbers between 81 and 234 included is 29
+None
+
+TEST 59 END
+
+TEST 60 BEGIN
+$ python3 -c 'from exercise_5 import * ; print(f(346, 1057))'
+The number of prime numbers between 346 and 1057 included is 109
+None
+
+TEST 60 END
+
+TEST 61 BEGIN
+$ python3 -c 'from exercise_5 import * ; print(f(1058, 98765))'
+The number of prime numbers between 1058 and 98765 included is 9303
+None
+
+TEST 61 END
+
+TEST 62 BEGIN
+$ python3 -c 'from exercise_5 import * ; print(f(12345, 765120))'
+The number of prime numbers between 12345 and 765120 included is 59890
+None
+
+TEST 62 END
+
+TEST 63 BEGIN
+$ python3 -c 'from exercise_5 import * ; print(f(123456, 9182735))'
+Max running time exceeded, program killed
+
+TEST 63 END
+
+TEST 64 BEGIN
+$ python3 -c 'from exercise_5 import * ; print(f(9837674, 18765432))'
+Max running time exceeded, program killed
+
+TEST 64 END
+
+TEST 65 BEGIN
+$ python3 -c 'from exercise_6 import * ; print(f(11, 29))'
+15 * 24 = 360 is a solution
+15 * 26 = 390 is a solution
+None
+
+TEST 65 END
+
+TEST 66 BEGIN
+$ python3 -c 'from exercise_6 import * ; print(f(21, 42))'
+26 * 35 = 910 is a solution
+27 * 34 = 918 is a solution
+38 * 42 = 1596 is a solution
+None
+
+TEST 66 END
+
+TEST 67 BEGIN
+$ python3 -c 'from exercise_6 import * ; print(f(33, 56))'
+34 * 52 = 1768 is a solution
+38 * 42 = 1596 is a solution
+38 * 52 = 1976 is a solution
+39 * 54 = 2106 is a solution
+39 * 56 = 2184 is a solution
+None
+
+TEST 67 END
+
+TEST 68 BEGIN
+$ python3 -c 'from exercise_6 import * ; print(f(20, 79))'
+23 * 46 = 1058 is a solution
+23 * 69 = 1587 is a solution
+24 * 57 = 1368 is a solution
+26 * 35 = 910 is a solution
+27 * 34 = 918 is a solution
+32 * 49 = 1568 is a solution
+34 * 52 = 1768 is a solution
+34 * 58 = 1972 is a solution
+37 * 58 = 2146 is a solution
+38 * 42 = 1596 is a solution
+38 * 52 = 1976 is a solution
+38 * 65 = 2470 is a solution
+39 * 54 = 2106 is a solution
+39 * 56 = 2184 is a solution
+48 * 65 = 3120 is a solution
+52 * 79 = 4108 is a solution
+53 * 76 = 4028 is a solution
+58 * 64 = 3712 is a solution
+59 * 68 = 4012 is a solution
+59 * 78 = 4602 is a solution
+68 * 74 = 5032 is a solution
+None
+
+TEST 68 END
+
+TEST 69 BEGIN
+$ python3 -c 'from exercise_6 import * ; print(f(31, 66))'
+32 * 49 = 1568 is a solution
+34 * 52 = 1768 is a solution
+34 * 58 = 1972 is a solution
+37 * 58 = 2146 is a solution
+38 * 42 = 1596 is a solution
+38 * 52 = 1976 is a solution
+38 * 65 = 2470 is a solution
+39 * 54 = 2106 is a solution
+39 * 56 = 2184 is a solution
+48 * 65 = 3120 is a solution
+58 * 64 = 3712 is a solution
+None
+
+TEST 69 END
+
+TEST 70 BEGIN
+$ python3 -c 'from exercise_6 import * ; print(f(39, 72))'
+39 * 54 = 2106 is a solution
+39 * 56 = 2184 is a solution
+48 * 65 = 3120 is a solution
+58 * 64 = 3712 is a solution
+59 * 68 = 4012 is a solution
+None
+
+TEST 70 END
+
+TEST 71 BEGIN
+$ python3 -c 'from exercise_6 import * ; print(f(66, 87))'
+68 * 74 = 5032 is a solution
+74 * 85 = 6290 is a solution
+None
+
+TEST 71 END
+
+TEST 72 BEGIN
+$ python3 -c 'from exercise_6 import * ; print(f(70, 134))'
+72 * 95 = 6840 is a solution
+74 * 85 = 6290 is a solution
+None
+
+TEST 72 END
+
+TEST 73 BEGIN
+$ python3 -c 'from exercise_7 import * ; print(f(1))'
+A
+None
+
+TEST 73 END
+
+TEST 74 BEGIN
+$ python3 -c 'from exercise_7 import * ; print(f(5))'
+A
+VBV
+AWCWA
+CBADABC
+EDCBEBCDE
+None
+
+TEST 74 END
+
+TEST 75 BEGIN
+$ python3 -c 'from exercise_7 import * ; print(f(9))'
+A
+VBV
+AWCWA
+CBADABC
+EDCBEBCDE
+GFEDCFCDEFG
+IHGFEDGDEFGHI
+KJIHGFEHEFGHIJK
+MLKJIHGFIFGHIJKLM
+None
+
+TEST 75 END
+
+TEST 76 BEGIN
+$ python3 -c 'from exercise_7 import * ; print(f(11))'
+A
+VBV
+AWCWA
+CBADABC
+EDCBEBCDE
+GFEDCFCDEFG
+IHGFEDGDEFGHI
+KJIHGFEHEFGHIJK
+MLKJIHGFIFGHIJKLM
+ONMLKJIHGJGHIJKLMNO
+QPONMLKJIHKHIJKLMNOPQ
+None
+
+TEST 76 END
+
+TEST 77 BEGIN
+$ python3 -c 'from exercise_7 import * ; print(f(16))'
+A
+VBV
+AWCWA
+CBADABC
+EDCBEBCDE
+GFEDCFCDEFG
+IHGFEDGDEFGHI
+KJIHGFEHEFGHIJK
+MLKJIHGFIFGHIJKLM
+ONMLKJIHGJGHIJKLMNO
+QPONMLKJIHKHIJKLMNOPQ
+SRQPONMLKJILIJKLMNOPQRS
+UTSRQPONMLKJMJKLMNOPQRSTU
+WVUTSRQPONMLKNKLMNOPQRSTUVW
+BAWVUTSRQPONMLOLMNOPQRSTUVWAB
+DCBAWVUTSRQPONMPMNOPQRSTUVWABCD
+None
+
+TEST 77 END
+
+TEST 78 BEGIN
+$ python3 -c 'from exercise_7 import * ; print(f(20))'
+A
+VBV
+AWCWA
+CBADABC
+EDCBEBCDE
+GFEDCFCDEFG
+IHGFEDGDEFGHI
+KJIHGFEHEFGHIJK
+MLKJIHGFIFGHIJKLM
+ONMLKJIHGJGHIJKLMNO
+QPONMLKJIHKHIJKLMNOPQ
+SRQPONMLKJILIJKLMNOPQRS
+UTSRQPONMLKJMJKLMNOPQRSTU
+WVUTSRQPONMLKNKLMNOPQRSTUVW
+BAWVUTSRQPONMLOLMNOPQRSTUVWAB
+DCBAWVUTSRQPONMPMNOPQRSTUVWABCD
+FEDCBAWVUTSRQPONQNOPQRSTUVWABCDEF
+HGFEDCBAWVUTSRQPOROPQRSTUVWABCDEFGH
+JIHGFEDCBAWVUTSRQPSPQRSTUVWABCDEFGHIJ
+LKJIHGFEDCBAWVUTSRQTQRSTUVWABCDEFGHIJKL
+None
+
+TEST 78 END
+
+TEST 79 BEGIN
+$ python3 -c 'from exercise_7 import * ; print(f(29))'
+A
+VBV
+AWCWA
+CBADABC
+EDCBEBCDE
+GFEDCFCDEFG
+IHGFEDGDEFGHI
+KJIHGFEHEFGHIJK
+MLKJIHGFIFGHIJKLM
+ONMLKJIHGJGHIJKLMNO
+QPONMLKJIHKHIJKLMNOPQ
+SRQPONMLKJILIJKLMNOPQRS
+UTSRQPONMLKJMJKLMNOPQRSTU
+WVUTSRQPONMLKNKLMNOPQRSTUVW
+BAWVUTSRQPONMLOLMNOPQRSTUVWAB
+DCBAWVUTSRQPONMPMNOPQRSTUVWABCD
+FEDCBAWVUTSRQPONQNOPQRSTUVWABCDEF
+HGFEDCBAWVUTSRQPOROPQRSTUVWABCDEFGH
+JIHGFEDCBAWVUTSRQPSPQRSTUVWABCDEFGHIJ
+LKJIHGFEDCBAWVUTSRQTQRSTUVWABCDEFGHIJKL
+NMLKJIHGFEDCBAWVUTSRURSTUVWABCDEFGHIJKLMN
+PONMLKJIHGFEDCBAWVUTSVSTUVWABCDEFGHIJKLMNOP
+RQPONMLKJIHGFEDCBAWVUT@TUVWABCDEFGHIJKLMNOPQR
+TSRQPONMLKJIHGFEDCBAWVUAUVWABCDEFGHIJKLMNOPQRST
+VUTSRQPONMLKJIHGFEDCBAWVBVWABCDEFGHIJKLMNOPQRSTUV
+AWVUTSRQPONMLKJIHGFEDCBAWCWABCDEFGHIJKLMNOPQRSTUVWA
+CBAWVUTSRQPONMLKJIHGFEDCBADABCDEFGHIJKLMNOPQRSTUVWABC
+EDCBAWVUTSRQPONMLKJIHGFEDCBEBCDEFGHIJKLMNOPQRSTUVWABCDE
+GFEDCBAWVUTSRQPONMLKJIHGFEDCFCDEFGHIJKLMNOPQRSTUVWABCDEFG
+None
+
+TEST 79 END
+
+TEST 80 BEGIN
+$ python3 -c 'from exercise_7 import * ; print(f(33))'
+A
+VBV
+AWCWA
+CBADABC
+EDCBEBCDE
+GFEDCFCDEFG
+IHGFEDGDEFGHI
+KJIHGFEHEFGHIJK
+MLKJIHGFIFGHIJKLM
+ONMLKJIHGJGHIJKLMNO
+QPONMLKJIHKHIJKLMNOPQ
+SRQPONMLKJILIJKLMNOPQRS
+UTSRQPONMLKJMJKLMNOPQRSTU
+WVUTSRQPONMLKNKLMNOPQRSTUVW
+BAWVUTSRQPONMLOLMNOPQRSTUVWAB
+DCBAWVUTSRQPONMPMNOPQRSTUVWABCD
+FEDCBAWVUTSRQPONQNOPQRSTUVWABCDEF
+HGFEDCBAWVUTSRQPOROPQRSTUVWABCDEFGH
+JIHGFEDCBAWVUTSRQPSPQRSTUVWABCDEFGHIJ
+LKJIHGFEDCBAWVUTSRQTQRSTUVWABCDEFGHIJKL
+NMLKJIHGFEDCBAWVUTSRURSTUVWABCDEFGHIJKLMN
+PONMLKJIHGFEDCBAWVUTSVSTUVWABCDEFGHIJKLMNOP
+RQPONMLKJIHGFEDCBAWVUT@TUVWABCDEFGHIJKLMNOPQR
+TSRQPONMLKJIHGFEDCBAWVUAUVWABCDEFGHIJKLMNOPQRST
+VUTSRQPONMLKJIHGFEDCBAWVBVWABCDEFGHIJKLMNOPQRSTUV
+AWVUTSRQPONMLKJIHGFEDCBAWCWABCDEFGHIJKLMNOPQRSTUVWA
+CBAWVUTSRQPONMLKJIHGFEDCBADABCDEFGHIJKLMNOPQRSTUVWABC
+EDCBAWVUTSRQPONMLKJIHGFEDCBEBCDEFGHIJKLMNOPQRSTUVWABCDE
+GFEDCBAWVUTSRQPONMLKJIHGFEDCFCDEFGHIJKLMNOPQRSTUVWABCDEFG
+IHGFEDCBAWVUTSRQPONMLKJIHGFEDGDEFGHIJKLMNOPQRSTUVWABCDEFGHI
+KJIHGFEDCBAWVUTSRQPONMLKJIHGFEHEFGHIJKLMNOPQRSTUVWABCDEFGHIJK
+MLKJIHGFEDCBAWVUTSRQPONMLKJIHGFIFGHIJKLMNOPQRSTUVWABCDEFGHIJKLM
+ONMLKJIHGFEDCBAWVUTSRQPONMLKJIHGJGHIJKLMNOPQRSTUVWABCDEFGHIJKLMNO
+None
+
+TEST 80 END
+
+TEST 81 BEGIN
+$ python3 -c 'from exercise_8 import * ; print(f("test_1.txt"))'
+There are None sentence(s).
+The shortest sentence has None word(s).
+The longest sentence has None word(s).
+The shortest word has None character(s).
+The longest word has None character(s).
+None
+
+TEST 81 END
+
+TEST 82 BEGIN
+$ python3 -c 'from exercise_8 import * ; print(f("test_2.txt"))'
+There are None sentence(s).
+The shortest sentence has None word(s).
+The longest sentence has None word(s).
+The shortest word has None character(s).
+The longest word has None character(s).
+None
+
+TEST 82 END
+
+TEST 83 BEGIN
+$ python3 -c 'from exercise_8 import * ; print(f("test_3.txt"))'
+There are None sentence(s).
+The shortest sentence has None word(s).
+The longest sentence has None word(s).
+The shortest word has None character(s).
+The longest word has None character(s).
+None
+
+TEST 83 END
+
+TEST 84 BEGIN
+$ python3 -c 'from exercise_8 import * ; print(f("test_4.txt"))'
+There are None sentence(s).
+The shortest sentence has None word(s).
+The longest sentence has None word(s).
+The shortest word has None character(s).
+The longest word has None character(s).
+None
+
+TEST 84 END
+
+TEST 85 BEGIN
+$ python3 -c 'from exercise_8 import * ; print(f("test_5.txt"))'
+There are None sentence(s).
+The shortest sentence has None word(s).
+The longest sentence has None word(s).
+The shortest word has None character(s).
+The longest word has None character(s).
+None
+
+TEST 85 END
+
+TEST 86 BEGIN
+$ python3 -c 'from exercise_8 import * ; print(f("test_6.txt"))'
+There are None sentence(s).
+The shortest sentence has None word(s).
+The longest sentence has None word(s).
+The shortest word has None character(s).
+The longest word has None character(s).
+None
+
+TEST 86 END
+
+TEST 87 BEGIN
+$ python3 -c 'from exercise_8 import * ; print(f("test_7.txt"))'
+There are None sentence(s).
+The shortest sentence has None word(s).
+The longest sentence has None word(s).
+The shortest word has None character(s).
+The longest word has None character(s).
+None
+
+TEST 87 END
+
+TEST 88 BEGIN
+$ python3 -c 'from exercise_8 import * ; print(f("test_8.txt"))'
+There are None sentence(s).
+The shortest sentence has None word(s).
+The longest sentence has None word(s).
+The shortest word has None character(s).
+The longest word has None character(s).
+None
+
+TEST 88 END
+

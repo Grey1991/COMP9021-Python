@@ -1,0 +1,196 @@
+TEST 1 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3413
+Here is the grid that has been generated:
+      SW  SE  NW  SW  SW  SE  SE
+      NE  NW  NE  SE  NW  NE  NE
+      NW  SW  SE  NW  NW  NW  SE
+      NW  SE  NW  SE  SE  NE  NE
+      NE  SE  SE  SW  SW  NW  NE
+      NW  NW  NW  NW  NW  NE  SE
+      NW  NW  SE  NE  NW  SW  NW
+
+The preferred path to (0, 0) is:
+   [(3, 3), (3, 4), (2, 5), (1, 5), (0, 4), (0, 3), (0, 2), (0, 1), (0, 0)]
+The preferred path to (6, 0) is:
+   [(3, 3), (4, 3), (5, 3), (5, 2), (5, 1), (6, 0)]
+There is no path to (6, 6)
+There is no path to (0, 6)
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3416
+Here is the grid that has been generated:
+      NE  NW  NE  NW  SW  SE  NW
+      NE  SE  SW  SW  SE  SW  SW
+      NE  NW  NW  SW  NW  NE  SE
+      NW  NE  NE  SE  NE  SE  NE
+      NE  NW  SW  SW  NW  SE  NE
+      NW  SW  NW  NE  SE  NW  NE
+      SW  SE  SE  NW  NE  NE  SE
+
+The preferred path to (0, 0) is:
+   [(3, 3), (4, 3), (4, 2), (3, 1), (2, 2), (1, 2), (0, 1), (0, 0)]
+There is no path to (6, 0)
+The preferred path to (6, 6) is:
+   [(3, 3), (3, 4), (3, 5), (4, 5), (5, 6), (6, 6)]
+The preferred path to (0, 6) is:
+   [(3, 3), (3, 4), (2, 5), (1, 5), (0, 6)]
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3419
+Here is the grid that has been generated:
+      SE  SW  NW  SE  NE  NE  SE
+      NE  NW  NE  NE  NW  NW  SW
+      SW  SE  SW  NE  SE  SE  SE
+      SE  NW  SW  SW  NW  NW  NW
+      SW  SW  SW  SW  SE  NW  NE
+      NE  SE  NW  NW  NE  NE  NW
+      SW  NE  NW  NW  NE  SE  SW
+
+There is no path to any corner
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3427
+Here is the grid that has been generated:
+      SW  NW  SW  NE  NE  SE  NE
+      NE  NW  SE  NW  NW  SE  SW
+      SW  NW  SW  NW  NE  SE  NW
+      SW  NW  SE  NW  SE  NW  NE
+      NE  SE  NE  SW  SE  SE  NW
+      SW  NE  NE  NW  NE  SW  SW
+      SE  NE  NE  NW  SE  NW  NE
+
+The preferred path to (0, 0) is:
+   [(3, 3), (2, 2), (1, 2), (0, 1), (0, 0)]
+The preferred path to (6, 0) is:
+   [(3, 3), (3, 2), (3, 1), (3, 0), (4, 0), (5, 0), (6, 0)]
+The preferred path to (6, 6) is:
+   [(3, 3), (3, 2), (3, 1), (3, 0), (4, 0), (5, 0), (6, 1), (5, 2), (5, 3), (4, 3), (5, 4), (6, 5), (6, 6)]
+There is no path to (0, 6)
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3428
+Here is the grid that has been generated:
+      SW  SW  NE  NW  NW  SE  SE
+      NW  NE  SW  NW  SE  NW  NW
+      SE  SW  NE  SW  NW  SE  SE
+      SE  SW  SW  NW  SW  SE  SE
+      NE  NE  SE  SE  SE  SE  NW
+      NE  SE  SW  NW  SE  SW  SE
+      SW  SW  NE  NE  NE  NW  SE
+
+The preferred path to (0, 0) is:
+   [(3, 3), (2, 2), (2, 1), (1, 1), (1, 0), (0, 0)]
+There is no path to (6, 0)
+The preferred path to (6, 6) is:
+   [(3, 3), (2, 3), (2, 4), (3, 4), (4, 4), (5, 4), (6, 5), (6, 6)]
+The preferred path to (0, 6) is:
+   [(3, 3), (2, 3), (2, 4), (2, 5), (1, 6), (0, 6)]
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3433
+Here is the grid that has been generated:
+      SW  SE  SW  NE  NE  NW  NW
+      SW  NW  SW  NW  SE  NW  NW
+      SE  NW  NE  SE  NE  NW  NW
+      NW  SE  SW  SE  SW  NW  SW
+      NW  NE  NE  NW  SE  NW  NW
+      NE  SW  SE  NW  NW  SE  SE
+      NE  NE  NE  NW  NE  NE  SE
+
+There is no path to (0, 0)
+There is no path to (6, 0)
+The preferred path to (6, 6) is:
+   [(3, 3), (4, 4), (5, 5), (6, 6)]
+There is no path to (0, 6)
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3443
+Here is the grid that has been generated:
+      NW  SW  SW  SW  SE  SE  NW
+      SW  NW  SE  SE  SW  NE  NE
+      NE  NE  NE  NE  SE  SW  SE
+      SE  NE  SE  SE  NW  NW  SE
+      NW  NW  NW  SW  SW  NW  SW
+      NE  SE  SE  SW  NW  NW  SE
+      NW  SW  NE  NW  SW  SE  SW
+
+The preferred path to (0, 0) is:
+   [(3, 3), (3, 4), (2, 4), (1, 3), (1, 2), (1, 1), (0, 0)]
+There is no path to (6, 0)
+There is no path to (6, 6)
+There is no path to (0, 6)
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3444
+Here is the grid that has been generated:
+      NE  NW  SW  SW  SE  NW  NE
+      SW  NE  NE  SE  SE  NW  NE
+      NE  SE  NE  SE  SW  SW  SW
+      NW  NE  SE  SE  NE  NW  NW
+      NW  SW  SE  NW  NE  SE  NW
+      SW  NW  SW  NE  NW  SE  NW
+      NE  NE  SE  SE  SW  NE  SE
+
+The preferred path to (0, 0) is:
+   [(3, 3), (3, 4), (2, 4), (2, 5), (1, 5), (0, 4), (0, 3), (0, 2), (1, 1), (1, 0), (0, 0)]
+There is no path to (6, 0)
+The preferred path to (6, 6) is:
+   [(3, 3), (4, 4), (5, 4), (5, 5), (6, 6)]
+The preferred path to (0, 6) is:
+   [(3, 3), (3, 4), (2, 4), (2, 5), (1, 5), (0, 5), (0, 6)]
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3453
+Here is the grid that has been generated:
+      SE  SE  SW  SE  SW  NE  NE
+      NW  NE  NE  SE  SW  NE  SW
+      SE  SW  SW  NE  NW  SE  SW
+      NE  SW  NE  SE  SW  SE  SW
+      NE  NE  SE  SW  SW  SW  SW
+      NW  NW  SE  SW  NW  SE  NW
+      SW  SW  SW  NW  SE  NW  NW
+
+There is no path to (0, 0)
+There is no path to (6, 0)
+There is no path to (6, 6)
+The preferred path to (0, 6) is:
+   [(3, 3), (4, 4), (3, 5), (2, 6), (1, 6), (0, 6)]
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 quiz_8.py
+Enter an integer: 3456
+Here is the grid that has been generated:
+      NW  NW  SW  SE  SE  SW  SW
+      NE  SE  SE  SE  SW  SW  NW
+      NW  SE  SW  NE  NE  SW  NW
+      SW  SE  SW  NE  NE  SE  NW
+      SW  SE  SE  NE  NW  NW  SW
+      SE  NE  NE  SE  NE  NE  SW
+      NE  NE  NW  SW  NE  SW  NE
+
+There is no path to (0, 0)
+The preferred path to (6, 0) is:
+   [(3, 3), (4, 3), (5, 3), (6, 3), (6, 2), (6, 1), (6, 0)]
+The preferred path to (6, 6) is:
+   [(3, 3), (4, 3), (5, 3), (6, 4), (6, 5), (6, 6)]
+There is no path to (0, 6)
+TEST 10 END
+

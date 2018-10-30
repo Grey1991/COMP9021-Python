@@ -1,0 +1,32 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.4cm, y=-0.4cm, thick, brown]
+\draw[ultra thick] (0, 0) -- (44, 0) -- (44, 33) -- (0, 33) -- cycle;
+%Depth 0
+\filldraw[fill=orange!0!yellow] (8, 0) -- (38, 0) -- (41, 3) -- (41, 7) -- (40, 8) -- (40, 11) -- (39, 12) -- (39, 21) -- (38, 22) -- (38, 24) -- (36, 26) -- (36, 30) -- (34, 32) -- (10, 32) -- (9, 31) -- (9, 27) -- (5, 23) -- (5, 22) -- (4, 21) -- (2, 21) -- (1, 20) -- (1, 17) -- (0, 16) -- (0, 12) -- (2, 10) -- (2, 6) -- cycle;
+\filldraw[fill=orange!100!yellow] (42, 8) -- (43, 8) -- (43, 13) -- (42, 12) -- cycle;
+\filldraw[fill=orange!99!yellow] (43, 15) -- (43, 25) -- (42, 25) -- (42, 16) -- cycle;
+\filldraw[fill=orange!99!yellow] (41, 28) -- (42, 29) -- (43, 29) -- (44, 30) -- (44, 31) -- (42, 33) -- (39, 30) -- cycle;
+%Depth 1
+\filldraw[fill=orange!99!yellow] (11, 2) -- (13, 2) -- (14, 3) -- (14, 6) -- (12, 4) -- (10, 4) -- (8, 6) -- (8, 10) -- (7, 9) -- (7, 6) -- cycle;
+\filldraw[fill=orange!67!yellow] (21, 3) -- (28, 3) -- (32, 7) -- (32, 17) -- (22, 27) -- (18, 27) -- (17, 26) -- (17, 25) -- (13, 21) -- (13, 20) -- (9, 16) -- (9, 15) -- cycle;
+\filldraw[fill=orange!92!yellow] (5, 7) -- (5, 15) -- (11, 21) -- (11, 23) -- (13, 25) -- (13, 26) -- (16, 29) -- (27, 29) -- (29, 27) -- (29, 26) -- (30, 25) -- (30, 24) -- (33, 21) -- (34, 22) -- (34, 23) -- (32, 25) -- (32, 28) -- (30, 30) -- (13, 30) -- (12, 29) -- (12, 27) -- (11, 26) -- (11, 25) -- (4, 18) -- (4, 8) -- cycle;
+%Depth 2
+\filldraw[fill=orange!93!yellow] (24, 6) -- (24, 19) -- (21, 22) -- (20, 22) -- (17, 19) -- (17, 13) -- cycle;
+\filldraw[fill=orange!100!yellow] (27, 11) -- (28, 12) -- (28, 14) -- (27, 15) -- cycle;
+\filldraw[fill=orange!100!yellow] (13, 14) -- (14, 14) -- (14, 15) -- (13, 15) -- cycle;
+%Depth 3
+\filldraw[fill=orange!100!yellow] (20, 12) -- (21, 12) -- (20, 13) -- cycle;
+\filldraw[fill=orange!100!yellow] (20, 14) -- (21, 15) -- (20, 15) -- cycle;
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}

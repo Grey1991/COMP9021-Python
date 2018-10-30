@@ -1,0 +1,96 @@
+TEST 1 BEGIN
+$ echo 12 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 12 at most has a length of 2.
+The largest such P is 5.
+
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 101 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 101 at most has a length of 6.
+The largest such P is 41.
+
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 130 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 130 at most has a length of 9.
+The largest such P is 127.
+
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 370 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 370 at most has a length of 14.
+The largest such P is 281.
+
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 845 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 845 at most has a length of 17.
+The largest such P is 563.
+
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 894 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 894 at most has a length of 19.
+The largest such P is 857.
+
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 2546 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 2546 at most has a length of 33.
+The largest such P is 2417.
+
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 5200 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 5200 at most has a length of 47.
+The largest such P is 5107.
+
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 45678 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 45678 at most has a length of 132.
+The largest such P is 44683.
+
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 678901 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 678901 at most has a length of 453.
+The largest such P is 674767.
+
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 5678910 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 5678910 at most has a length of 1222.
+The largest such P is 5666783.
+
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 19090909 | python3 quiz_2.py
+Enter an integer at least equal to 5: The largest sequence of consecutive primes that add up
+  to a prime P equal to 19090909 at most has a length of 2151.
+The largest such P is 19085501.
+
+TEST 12 END
+

@@ -1,0 +1,736 @@
+TEST 1 BEGIN
+$ python3 polygons.py --file incorrect_1.txt
+Incorrect input.
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 polygons.py --file incorrect_2.txt
+Incorrect input.
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 polygons.py --file incorrect_3.txt
+Incorrect input.
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 polygons.py --file incorrect_4.txt
+Incorrect input.
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 polygons.py --file incorrect_5.txt
+Incorrect input.
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 polygons.py --file wrong_1.txt
+Cannot get polygons as expected.
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 polygons.py --file wrong_2.txt
+Cannot get polygons as expected.
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 polygons.py --file wrong_3.txt
+Cannot get polygons as expected.
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 polygons.py --file wrong_4.txt
+Cannot get polygons as expected.
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 polygons.py --file wrong_5.txt
+Cannot get polygons as expected.
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 polygons.py --file polys_1.txt
+Polygon 1:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 0
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 polygons.py --file polys_2.txt
+Polygon 1:
+    Perimeter: 2.4 + 30*sqrt(.32)
+    Area: 5.12
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 polygons.py --file polys_3.txt
+Polygon 1:
+    Perimeter: 16.0 + 4*sqrt(.32)
+    Area: 6.72
+    Convex: yes
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 2:
+    Perimeter: 3.2 + 4*sqrt(.32)
+    Area: 0.96
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 3:
+    Perimeter: 17.6 + 4*sqrt(.32)
+    Area: 13.76
+    Convex: yes
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 4:
+    Perimeter: 17.6 + 4*sqrt(.32)
+    Area: 13.76
+    Convex: yes
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 5:
+    Perimeter: 17.6 + 4*sqrt(.32)
+    Area: 13.76
+    Convex: yes
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 6:
+    Perimeter: 3.2
+    Area: 0.48
+    Convex: yes
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 7:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 0
+Polygon 8:
+    Perimeter: 3.2
+    Area: 0.48
+    Convex: yes
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 9:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 10:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 0
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 polygons.py --file polys_4.txt
+Polygon 1:
+    Perimeter: 26.4 + 52*sqrt(.32)
+    Area: 135.04
+    Convex: no
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 2:
+    Perimeter: 10.4 + 40*sqrt(.32)
+    Area: 44.80
+    Convex: no
+    Nb of invariant rotations: 2
+    Depth: 1
+Polygon 3:
+    Perimeter: 18.4 + 4*sqrt(.32)
+    Area: 4.16
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 4:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 5:
+    Perimeter: 1.6 + 4*sqrt(.32)
+    Area: 0.64
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 6:
+    Perimeter: 2.4
+    Area: 0.32
+    Convex: yes
+    Nb of invariant rotations: 2
+    Depth: 2
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 polygons.py --file polys_5.txt
+Polygon 1:
+    Perimeter: 78.4
+    Area: 384.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 0
+Polygon 2:
+    Perimeter: 72.0
+    Area: 324.00
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 1
+Polygon 3:
+    Perimeter: 65.6
+    Area: 268.96
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 2
+Polygon 4:
+    Perimeter: 59.2
+    Area: 219.04
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 3
+Polygon 5:
+    Perimeter: 52.8
+    Area: 174.24
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 4
+Polygon 6:
+    Perimeter: 46.4
+    Area: 134.56
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 5
+Polygon 7:
+    Perimeter: 40.0
+    Area: 100.00
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 6
+Polygon 8:
+    Perimeter: 33.6
+    Area: 70.56
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 7
+Polygon 9:
+    Perimeter: 27.2
+    Area: 46.24
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 8
+Polygon 10:
+    Perimeter: 20.8
+    Area: 27.04
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 9
+Polygon 11:
+    Perimeter: 14.4
+    Area: 12.96
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 10
+Polygon 12:
+    Perimeter: 8.0
+    Area: 4.00
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 11
+Polygon 13:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 12
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 polygons.py --file polys_6.txt
+Polygon 1:
+    Perimeter: 37.6 + 92*sqrt(.32)
+    Area: 176.64
+    Convex: no
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 2:
+    Perimeter: 16.0 + 38*sqrt(.32)
+    Area: 60.80
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 3:
+    Perimeter: 16.0 + 40*sqrt(.32)
+    Area: 64.00
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 4:
+    Perimeter: 14.4 + 34*sqrt(.32)
+    Area: 48.96
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 5:
+    Perimeter: 16.0 + 40*sqrt(.32)
+    Area: 64.00
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 6:
+    Perimeter: 11.2 + 26*sqrt(.32)
+    Area: 29.12
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 3
+Polygon 7:
+    Perimeter: 9.6 + 22*sqrt(.32)
+    Area: 21.12
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 4
+Polygon 8:
+    Perimeter: 12.8 + 32*sqrt(.32)
+    Area: 40.96
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 9:
+    Perimeter: 8.0 + 18*sqrt(.32)
+    Area: 14.40
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 5
+Polygon 10:
+    Perimeter: 12.8 + 32*sqrt(.32)
+    Area: 40.96
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 11:
+    Perimeter: 11.2 + 28*sqrt(.32)
+    Area: 31.36
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 12:
+    Perimeter: 4.8 + 10*sqrt(.32)
+    Area: 4.80
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 6
+Polygon 13:
+    Perimeter: 11.2 + 28*sqrt(.32)
+    Area: 31.36
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 14:
+    Perimeter: 3.2 + 6*sqrt(.32)
+    Area: 1.92
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 7
+Polygon 15:
+    Perimeter: 1.6 + 2*sqrt(.32)
+    Area: 0.32
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 8
+Polygon 16:
+    Perimeter: 8.0 + 20*sqrt(.32)
+    Area: 16.00
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 3
+Polygon 17:
+    Perimeter: 8.0 + 20*sqrt(.32)
+    Area: 16.00
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 3
+Polygon 18:
+    Perimeter: 7.2 + 14*sqrt(.32)
+    Area: 10.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 4
+Polygon 19:
+    Perimeter: 7.2 + 14*sqrt(.32)
+    Area: 10.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 4
+Polygon 20:
+    Perimeter: 4.8 + 12*sqrt(.32)
+    Area: 5.44
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 5
+Polygon 21:
+    Perimeter: 4.8 + 12*sqrt(.32)
+    Area: 5.44
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 5
+Polygon 22:
+    Perimeter: 0.8 + 2*sqrt(.32)
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 6
+Polygon 23:
+    Perimeter: 0.8 + 2*sqrt(.32)
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 6
+Polygon 24:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 6
+Polygon 25:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 6
+Polygon 26:
+    Perimeter: 16.0 + 38*sqrt(.32)
+    Area: 60.80
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 27:
+    Perimeter: 14.4 + 34*sqrt(.32)
+    Area: 48.96
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 28:
+    Perimeter: 11.2 + 26*sqrt(.32)
+    Area: 29.12
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 3
+Polygon 29:
+    Perimeter: 9.6 + 22*sqrt(.32)
+    Area: 21.12
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 4
+Polygon 30:
+    Perimeter: 8.0 + 18*sqrt(.32)
+    Area: 14.40
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 5
+Polygon 31:
+    Perimeter: 4.8 + 10*sqrt(.32)
+    Area: 4.80
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 6
+Polygon 32:
+    Perimeter: 3.2 + 6*sqrt(.32)
+    Area: 1.92
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 7
+Polygon 33:
+    Perimeter: 1.6 + 2*sqrt(.32)
+    Area: 0.32
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 8
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 polygons.py --file polys_7.txt
+Polygon 1:
+    Perimeter: 16.0 + 34*sqrt(.32)
+    Area: 13.60
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 2:
+    Perimeter: 30.4
+    Area: 11.52
+    Convex: yes
+    Nb of invariant rotations: 2
+    Depth: 0
+Polygon 3:
+    Perimeter: 16.0 + 34*sqrt(.32)
+    Area: 13.60
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 polygons.py --file polys_8.txt
+Polygon 1:
+    Perimeter: 9.6 + 26*sqrt(.32)
+    Area: 27.04
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 2:
+    Perimeter: 14.4 + 24*sqrt(.32)
+    Area: 19.84
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 3:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 0
+Polygon 4:
+    Perimeter: 6.4 + 10*sqrt(.32)
+    Area: 4.32
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 5:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 1
+Polygon 6:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 7:
+    Perimeter: 3.2 + 5*sqrt(.32)
+    Area: 2.00
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 8:
+    Perimeter: 3.2 + 15*sqrt(.32)
+    Area: 6.48
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 9:
+    Perimeter: 0.8 + 2*sqrt(.32)
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 10:
+    Perimeter: 27.2 + 67*sqrt(.32)
+    Area: 58.64
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 11:
+    Perimeter: 6.4 + 9*sqrt(.32)
+    Area: 5.84
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 12:
+    Perimeter: 4.8 + 6*sqrt(.32)
+    Area: 3.52
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 13:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 14:
+    Perimeter: 2.4 + 1*sqrt(.32)
+    Area: 0.40
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 15:
+    Perimeter: 1.6 + 9*sqrt(.32)
+    Area: 2.64
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 polygons.py --file polys_9.txt
+Polygon 1:
+    Perimeter: 108.0 + 13*sqrt(.32)
+    Area: 207.44
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 2:
+    Perimeter: 132.8 + 20*sqrt(.32)
+    Area: 60.32
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 3:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 1
+Polygon 4:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 1
+Polygon 5:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 1
+Polygon 6:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 1
+Polygon 7:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 1
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 polygons.py --file polys_10.txt
+Polygon 1:
+    Perimeter: 37.6 + 26*sqrt(.32)
+    Area: 177.28
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 2:
+    Perimeter: 5.6 + 10*sqrt(.32)
+    Area: 2.40
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 3:
+    Perimeter: 9.6 + 35*sqrt(.32)
+    Area: 59.12
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 4:
+    Perimeter: 8.0 + 13*sqrt(.32)
+    Area: 12.56
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 5:
+    Perimeter: 23.2 + 32*sqrt(.32)
+    Area: 13.92
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 1
+Polygon 6:
+    Perimeter: 4.0 + 1*sqrt(.32)
+    Area: 0.72
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 7:
+    Perimeter: 2.4 + 2*sqrt(.32)
+    Area: 0.48
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 2
+Polygon 8:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 3
+Polygon 9:
+    Perimeter: 1.6
+    Area: 0.16
+    Convex: yes
+    Nb of invariant rotations: 4
+    Depth: 2
+Polygon 10:
+    Perimeter: 0.8 + 1*sqrt(.32)
+    Area: 0.08
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 3
+Polygon 11:
+    Perimeter: 8.0 + 1*sqrt(.32)
+    Area: 1.52
+    Convex: yes
+    Nb of invariant rotations: 1
+    Depth: 0
+Polygon 12:
+    Perimeter: 0.8 + 9*sqrt(.32)
+    Area: 2.16
+    Convex: no
+    Nb of invariant rotations: 1
+    Depth: 0
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 polygons.py -print --file polys_1.txt
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 polygons.py -print --file polys_2.txt
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 polygons.py -print --file polys_3.txt
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 polygons.py -print --file polys_4.txt
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 polygons.py -print --file polys_5.txt
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 polygons.py -print --file polys_6.txt
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 polygons.py -print --file polys_7.txt
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 polygons.py -print --file polys_8.txt
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 polygons.py -print --file polys_9.txt
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 polygons.py -print --file polys_10.txt
+TEST 30 END
+

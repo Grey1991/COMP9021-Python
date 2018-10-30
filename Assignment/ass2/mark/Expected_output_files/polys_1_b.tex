@@ -1,0 +1,18 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.4cm, y=-0.4cm, thick, brown]
+\draw[ultra thick] (0, 0) -- (1, 0) -- (1, 1) -- (0, 1) -- cycle;
+%Depth 0
+\filldraw[fill=orange!0!yellow] (0, 0) -- (1, 0) -- (1, 1) -- (0, 1) -- cycle;
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}
